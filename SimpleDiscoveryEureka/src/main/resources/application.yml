@@ -1,0 +1,17 @@
+server:
+   port: 8571
+spring:
+  application:
+    name: simpleDiscoveryEureka
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://localhost:8571/eureka/
+security:
+  basic:
+    enable: true
+  user:
+    name: user
+    password: 123123

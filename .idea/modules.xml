@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SimpleCustomerUser/SimpleCustomerUser.iml" filepath="$PROJECT_DIR$/SimpleCustomerUser/SimpleCustomerUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleDiscoveryEureka/SimpleDiscoveryEureka.iml" filepath="$PROJECT_DIR$/SimpleDiscoveryEureka/SimpleDiscoveryEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleProviderUser/SimpleProviderUser.iml" filepath="$PROJECT_DIR$/SimpleProviderUser/SimpleProviderUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud.iml" filepath="$PROJECT_DIR$/springcloud.iml" />
+    </modules>
+  </component>
+</project>

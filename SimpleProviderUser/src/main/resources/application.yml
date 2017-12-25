@@ -1,0 +1,28 @@
+spring:
+  jpa:
+    database: MYSQL
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/spring-cloud
+    driverClassName: com.mysql.jdbc.Driver
+#  application:
+#    name: simple-provider-user        #注册到Eureka Server 所用的名称
+#logging:
+#  level:
+#    root: INFO
+#    org.hibernate: INFO
+#    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+#    org.hibernate.type.descriptor.sql.BasicExtractor: TRACE
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://user:123123@localhost:8571/simpleDiscoveryEureka/eureka/      # 与Eureka Server 交互的地址
+#    instance:
+#      prefer-ip-address: true             #  表示将自己的Ip 注册到Eureka Server 中 如果不配置或者设置false ,则将微服务所在操作系统的hostname到Eureka Server
+#      metadata-map:
+#        my-metadata: 123123
